@@ -37,6 +37,15 @@
     justify-content: space-between;
 }
 
+@media screen and (max-width: 800px) {
+    .header {
+        width: 100%;
+    }
+    .navigation {
+        width: 5rem;
+    }
+}
+
 .new-month {
     padding-top: 8px;
     transform: scale(0.8);
@@ -53,21 +62,28 @@
 }
 
 .base-container {
-    margin-top: 5rem;
+    width: 100%;
+    height: 100%;
+    background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    border-radius: 2rem;
 }
 
 .container {
     width: 70rem;
     height: 40rem;
+    margin-top: 5rem;
+    position: relative;
     /* background-color: rgb(236, 245, 252); */
     background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
+    border-radius: 3rem;
 }
 
 .nav {
-    width: 70rem;
+    position: relative;
+    width: 100%;
     height: 4rem;
     padding: 2rem;
     font-size: 2rem;
@@ -77,10 +93,12 @@
     align-items: center;
     justify-content: space-between;
     margin-bottom: 2rem;
+    border-top-left-radius: 3rem;
+    border-top-right-radius: 3rem;
 }
 
 .content-container {
-    width: 55rem;
+    width: 75%;
     height: 28rem;
     background-image: linear-gradient(to bottom, #ffecd2 0%, #fcb69f 100%);
     margin: auto;
@@ -98,4 +116,19 @@
     align-items: center;
     margin-bottom: 1rem;
     border-radius: 1rem;
+}
+
+@media screen and (max-width: 400px) {
+    .base-container,
+    .container,
+    .content-container,
+    .nav {
+        width: 100%;
+    }
+    .base-container {
+        margin-top: 1px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
 }
