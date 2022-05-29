@@ -1,0 +1,100 @@
+* {
+    margin: 0;
+    position: relative;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-size: 17px;
+    font-weight: bolder;
+    color: rgb(119, 237, 198);
+    cursor: pointer;
+}
+
+.main-container {
+    position: relative;
+    width: 100%;
+    height: 40rem;
+    background-color: aqua;
+}
+
+.nav-container {
+    width: 100%;
+    height: 5rem;
+    background-color: blanchedalmond;
+    display: flex;
+}
+
+.function {
+    position: relative;
+    flex: .55;
+    background-color: aliceblue;
+}
+
+.function-list {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1.5rem;
+    font-size: 17px;
+    font-weight: bold;
+    padding-inline-end: 2rem;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.logo {
+    width: 25%;
+    height: 5rem;
+    background-color: aliceblue;
+    flex: .25;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+    color: rgb(119, 237, 198);
+}
+
+.authentication {
+    flex: .25;
+    background-color: aliceblue;
+}
+
+.auth-way {
+    display: flex;
+    justify-content: space-between;
+    padding-inline-end: 4rem;
+    margin-top: 1rem;
+}
+
+.signup {
+    margin-right: 1rem;
+    width: 7rem;
+    height: 3rem;
+    background-color: rgb(90, 212, 172);
+    border-radius: 15px;
+    color: white;
+}
+
+.login {
+    margin-left: 3rem;
+    width: 7rem;
+    height: 3rem;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 100%;
+    height: 55rem;
+    /* background-color: bisque; */
+    background-image: url('./img/landingimg.svg');
+}
+
+.partner {
+    background-color: bisque;
+    width: 100%;
+    height: 10rem;
+}
