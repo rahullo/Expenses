@@ -3,6 +3,12 @@
     position: relative;
 }
 
+body {
+    width: 1500px;
+    height: 1300px;
+    position: relative;
+}
+
 button {
     border: none;
     background-color: transparent;
@@ -39,6 +45,17 @@ button {
     font-size: 17px;
     font-weight: bold;
     padding-inline-end: 2rem;
+}
+
+@media screen and (max-width: 400px) {
+    .company,
+    .support,
+    .customer {
+        display: none;
+    }
+    .container {
+        width: 390px;
+    }
 }
 
 ul {
@@ -91,7 +108,7 @@ ul {
 }
 
 .container {
-    width: 100%;
+    width: 94.9rem;
     height: 55rem;
     background-color: bisque;
 }
