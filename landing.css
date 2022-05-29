@@ -74,9 +74,13 @@ ul {
     margin-right: 1rem;
     width: 7rem;
     height: 3rem;
-    background-color: rgb(90, 212, 172);
+    background-color: rgb(110, 228, 189);
     border-radius: 15px;
     color: white;
+}
+
+.signup:hover {
+    background-color: rgb(107, 200, 169);
 }
 
 .login {
